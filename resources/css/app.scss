@@ -1,0 +1,1350 @@
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@600;700&display=swap");
+
+/* Black */
+@font-face {
+    font-family: "VastagoGrotesk";
+    src: url("/fonts/VastagoGrotesk-Black.otf") format("opentype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Black Italic */
+@font-face {
+    font-family: "VastagoGrotesk";
+    src: url("/fonts/VastagoGrotesk-BlackItalic.otf") format("opentype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* Bold */
+@font-face {
+    font-family: "VastagoGrotesk";
+    src: url("/fonts/VastagoGrotesk-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Bold Italic */
+@font-face {
+    font-family: "VastagoGrotesk";
+    src: url("/fonts/VastagoGrotesk-BoldItalic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Medium */
+@font-face {
+    font-family: "VastagoGrotesk";
+    src: url("/fonts/VastagoGrotesk-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Medium Italic */
+@font-face {
+    font-family: "VastagoGrotesk";
+    src: url("/fonts/VastagoGrotesk-MediumItalic.otf") format("opentype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Regular */
+@font-face {
+    font-family: "VastagoGrotesk";
+    src: url("/fonts/VastagoGrotesk-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Italic */
+@font-face {
+    font-family: "VastagoGrotesk";
+    src: url("/fonts/VastagoGrotesk-Italic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Light */
+@font-face {
+    font-family: "VastagoGrotesk";
+    src: url("/fonts/VastagoGrotesk-Light.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Light Italic */
+@font-face {
+    font-family: "VastagoGrotesk";
+    src: url("/fonts/VastagoGrotesk-LightItalic.otf") format("opentype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* Thin */
+@font-face {
+    font-family: "VastagoGrotesk";
+    src: url("/fonts/VastagoGrotesk-Thin.otf") format("opentype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Thin Italic */
+@font-face {
+    font-family: "VastagoGrotesk";
+    src: url("/fonts/VastagoGrotesk-ThinItalic.otf") format("opentype");
+    font-weight: 100;
+    font-style: italic;
+}
+
+.custom-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .custom-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .custom-container {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+body {
+    font-family: "VastagoGrotesk", sans-serif;
+}
+
+.heading-font {
+    font-family: "Work Sans", sans-serif;
+}
+
+.mx-50px {
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+}
+
+.mt-30px {
+    margin-top: 30px !important;
+}
+
+.mb-36px {
+    margin-bottom: 36px !important;
+}
+
+.mb-50px {
+    margin-bottom: 50px !important;
+}
+
+.mb-30px {
+    margin-bottom: 30px !important;
+}
+
+.mb-80px {
+    margin-bottom: 80px !important;
+}
+
+.mb-100px {
+    margin-bottom: 100px !important;
+}
+
+.px-50px {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+.py-50px {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+.pt-50px {
+    padding-top: 50px !important;
+}
+
+.pb-30px {
+    padding-bottom: 30px !important;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar {
+        background-color: #f2f2f2 !important;
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+
+    .navbar-collapse {
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+
+    #navbarMenu {
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+
+    // Hero
+    .hero-title {
+        font-size: 70px !important;
+        line-height: 1.1 !important;
+    }
+
+    .hero-section {
+        padding-bottom: 60px !important;
+    }
+
+    .hero-title {
+        font-size: 70px !important;
+        line-height: 1.1 !important;
+        margin-bottom: 40px !important;
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr 1.5fr !important;
+        align-items: center !important;
+        gap: 24px !important;
+    }
+
+    .hero-card {
+        padding: 32px !important;
+        border-radius: 16px !important;
+    }
+
+    .hero-card .card-title {
+        font-size: 24px !important;
+        letter-spacing: 0px !important;
+        margin-bottom: 24px !important;
+    }
+
+    .card-actions {
+        width: 100% !important;
+        gap: 16px !important;
+    }
+
+    .order-button,
+    .whatsapp-btn {
+        height: 60px !important;
+        gap: 16px !important;
+    }
+
+    .order-button > a {
+        font-size: 18px !important;
+    }
+
+    .icon-order {
+        height: 28px !important;
+        width: 28px !important;
+    }
+
+    .whatsapp-btn > img {
+        height: 28px !important;
+        width: auto !important;
+    }
+
+    .banner-img {
+        max-width: 100% !important;
+        border-radius: 16px !important;
+    }
+
+    // About Section
+
+    .about-section .col-12.col-lg-5 {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .description-about {
+        font-size: 24px !important;
+        padding: 20px !important;
+        line-height: 1.5 !important;
+    }
+
+    .img-tentang {
+        height: 100% !important;
+        object-fit: cover !important;
+        border-radius: 12px !important;
+    }
+
+    .icon-tentang img {
+        max-width: 180px !important;
+        height: auto !important;
+    }
+
+    // Menu
+    .menu-section {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+
+    .menu-section .row {
+        flex-wrap: nowrap;
+    }
+
+    .description-menu {
+        font-size: 42px !important;
+        line-height: 120% !important;
+        margin-bottom: 0px !important;
+    }
+
+    .menu-section p {
+        font-size: 18px !important;
+        line-height: 140% !important;
+    }
+
+    .btn-menu {
+        padding: 18px 35px !important;
+        font-size: 15px !important;
+    }
+
+    .btn-medal {
+        height: 50px !important;
+        width: 50px !important;
+    }
+
+    .btn-medal img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .menu-section img {
+        border-radius: 15px !important;
+    }
+
+    .menu-section img[alt="Bakso"] {
+        width: 220px !important;
+        height: 220px !important;
+    }
+
+    .menu-section img[alt="Bakso Besar"] {
+        width: 400px !important;
+        height: 350px !important;
+    }
+
+    .menu-section .col-md-5 h5 {
+        font-size: 20px !important;
+    }
+    .menu-section .col-md-5 p {
+        font-size: 15px !important;
+    }
+
+    .menu-section .col-md-7 {
+        gap: 30px !important;
+        height: auto !important;
+    }
+    .menu-section .col-md-7 h5 {
+        padding-top: 50px !important;
+        padding-bottom: 5px !important;
+        font-size: 20px !important;
+        height: auto !important;
+    }
+    .menu-section .col-md-7 p {
+        font-size: 15px !important;
+    }
+
+    .menu-section img[alt="Kualitas Bakso"] {
+        width: 260px !important;
+        height: 180px !important;
+    }
+
+    #menu .row.align-items-start {
+        gap: 25px !important;
+    }
+
+    #menu .col-md-6 .d-flex.flex-column {
+        gap: 40px !important;
+    }
+
+    #menu .d-flex.flex-column.flex-md-row {
+        gap: 25px !important;
+    }
+
+    #menu .row.justify-content-between {
+        gap: 25px !important;
+        align-items: center !important;
+    }
+
+    #menu .row.justify-content-between .col-md-5 {
+        padding-top: 50px; 
+    }
+
+    #menu .row.justify-content-between .col-md-7 {
+        margin-left: -20px; 
+    }
+
+    #menu .col-md-7 {
+        gap: 25px !important;
+    }
+
+    #menu .d-flex.align-items-center {
+        gap: 15px !important;
+    }
+
+    // Outlet
+    #warung .heading-outlet {
+        margin-bottom: 20px;
+    }
+    #warung .btn-outlet {
+        margin-bottom: 15px;
+    }
+
+    .outlet-section {
+        padding-top: 100px !important;
+    }
+
+    .heading-outlet {
+        font-size: 32px !important;
+    }
+
+    .outlet-carousel {
+        gap: 20px !important;
+        height: auto !important;
+    }
+
+    .outlet-card {
+        width: 300px !important;
+        height: auto !important;
+    }
+
+    .img-outlet {
+        max-height: 200px !important;
+    }
+
+    // Promo
+    .section-promo {
+        padding-top: 100px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .heading-60px {
+        font-size: 57px !important;
+        margin-bottom: 45px !important;
+    }
+
+    .tablet-promo {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+
+    .tablet-promo p {
+        font-size: 25px !important;
+    }
+
+    .tablet-promo .whatsapp-btn-1 {
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+
+    .whatsapp-btn-1 img {
+        height: 30px !important;
+    }
+
+    // Video
+    .section-video {
+        padding-bottom: 40px !important;
+    }
+
+    .icon-pause {
+        width: 80px !important;
+        height: 80px !important;
+    }
+
+    // Gallery
+    .section-gallery {
+        padding-bottom: 50px !important;
+    }
+
+    .gallery-gap-2 {
+        gap: 15px !important;
+    }
+
+    // Review
+    .review-title {
+        font-size: 36px !important;
+        margin-bottom: 60px !important;
+    }
+
+    .review-content {
+        font-size: 36px !important;
+    }
+
+    .review-name {
+        font-size: 18px !important;
+    }
+
+    .review-avatar {
+        width: 70px !important;
+        height: 70px !important;
+    }
+
+    // Banner
+    .button-overlay {
+        bottom: 60px !important;
+        gap: 18px !important;
+        transform: scale(0.9);
+    }
+
+    .button-overlay button img {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    .button-overlay button {
+        padding: 6px 10px !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    // NAVBAR
+    nav.navbar {
+        padding: 20px !important;
+    }
+
+    .navbar-collapse {
+        background-color: #f2f2f2;
+        padding: 30px;
+    }
+
+    #navbarMenu {
+        padding-left: 20px !important; 
+        padding-right: 20px !important;
+    }
+
+    // HERO
+    .hero-section {
+        padding-bottom: 40px !important;
+    }
+
+    .hero-title {
+        font-size: 40px !important;
+        line-height: 1.2 !important;
+        margin-bottom: 20px !important;
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+    }
+
+    .hero-card {
+        padding: 20px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
+    }
+
+    .card-actions {
+        width: 100% !important;
+    }
+
+    .hero-card .card-title {
+        font-size: 24px !important;
+        letter-spacing: -1px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .icon-order {
+        height: 32px !important;
+        width: 32px !important;
+    }
+
+    .order-button,
+    .whatsapp-btn {
+        height: 56px !important;
+        gap: 12px !important;
+    }
+
+    .order-button > a {
+        text-decoration: none !important;
+        font-size: 16px !important;
+    }
+
+    .whatsapp-btn > img {
+        height: 32px !important;
+        width: auto !important;
+    }
+
+    .banner-img {
+        max-width: 100% !important;
+        border-radius: 16px !important;
+    }
+
+    // About Section
+
+    .about-section .row {
+        flex-direction: column !important;
+    }
+
+    .about-section .col-12.col-lg-5 {
+        order: 1 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .about-section .col-12.col-lg-7 {
+        order: 2 !important;
+    }
+
+    .description-about {
+        font-size: 20px !important;
+        padding: 20px !important;
+        line-height: 1.4 !important;
+    }
+
+    .img-tentang {
+        height: auto !important;
+        width: 100% !important;
+        object-fit: cover !important;
+    }
+
+    .icon-tentang {
+        padding: 20px !important;
+        margin-bottom: 20px !important;
+
+        img {
+            max-width: 120px !important;
+            height: auto !important;
+        }
+    }
+
+    // menu
+    .description-menu {
+        font-size: 35px !important; 
+        line-height: 120% !important;
+    }
+
+    .menu-section p {
+        font-size: 18px !important; 
+        line-height: 140% !important;
+    }
+
+    .btn-menu {
+        padding: 20px 40px !important;
+        font-size: 18px !important;
+    }
+
+    .btn-medal {
+        height: 50px !important;
+        width: 50px !important;
+        margin-top: 40px !important;
+    }
+
+    .btn-medal img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .djaminan {
+        margin-top: 40px !important;
+    }
+
+    .menu-section img[alt="Bakso"] {
+        width: 350px !important;
+        height: 350px !important;
+    }
+
+    .menu-section img[alt="Bakso Besar"] {
+        width: 400px !important;
+        height: 350px !important;
+    }
+
+    .menu-section img[alt="Kualitas Bakso"] {
+        width: 350px !important;
+        height: 260px !important;
+    }
+
+    #menu .col-md-7 {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        text-align: left !important;
+        height: auto !important;
+        gap: 5px !important;
+    }
+
+    #menu .col-md-7 h5 {
+        font-size: 20px;
+    }
+
+    #menu .col-md-7 p {
+        font-size: 14px;
+    }
+
+    // OUTLET
+    .outlet-section {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+
+    #warung .heading-outlet {
+        margin-bottom: 0px !important;
+    }
+    #warung .btn-outlet {
+        margin-bottom: 0 !important; 
+    }
+
+    .heading-outlet {
+        font-size: 20px !important;
+    }
+
+    .outlet-section > .d-flex {
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        gap: 10px !important;
+    }
+
+    .btn-outlet {
+        width: 36px !important;
+        height: 36px !important;
+        opacity: 0.8 !important;
+    }
+
+    .btn-outlet img {
+        max-width: 14px !important;
+    }
+
+    .outlet-card {
+        flex: 0 0 80% !important; 
+        max-width: 80% !important;
+        height: auto !important;
+        padding: 12px !important;
+    }
+
+    .img-outlet {
+        max-height: 180px !important;
+        object-fit: cover !important;
+        width: 100% !important;
+    }
+
+    // Promo
+    .section-promo {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+
+    .heading-60px {
+        font-size: 50px !important;
+    }
+
+    .tablet-promo {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+
+    .tablet-promo p {
+        font-size: 25px !important;
+    }
+
+    .tablet-promo .whatsapp-btn-1 {
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+    }
+
+    .tablet-promo .whatsapp-btn-1 img {
+        height: 22px !important;
+    }
+
+    // Video
+    .section-video {
+        padding-bottom: 30px !important;
+    }
+
+    .icon-pause {
+        width: 10px !important;
+        height: 10px !important;
+    }
+
+    // Gallery Foto
+    .section-gallery {
+        padding-bottom: 40px !important;
+    }
+
+    .gallery-img {
+        height: 200px !important;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .gallery-gap-2 {
+        gap: 25px !important;
+    }
+
+    // Review
+    .review-nav-container {
+        flex-wrap: nowrap !important;
+        align-items: center !important;
+    }
+
+    .review-nav-container .nav-arrow {
+        width: 36px !important;
+        height: 36px !important;
+    }
+
+    .review-title {
+        font-size: 32px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .review-content {
+        font-size: 24px !important;
+    }
+
+    .review-name {
+        font-size: 15px !important;
+    }
+
+    .review-avatar {
+        width: 45px !important;
+        height: 45px !important;
+    }
+
+    .nav-arrow img {
+        width: 18px !important;
+        height: 18px !important;
+    }
+
+    .line-2 {
+        margin-top: 50px !important;
+    }
+
+    // Banner
+    .button-overlay {
+        position: absolute !important;
+        left: 50% !important;
+        bottom: 15px !important;
+        transform: translateX(-50%) !important;
+        display: flex !important;
+        gap: 12px !important;
+        z-index: 10 !important;
+    }
+
+    .btn-pesan {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+        font-size: 10px !important;
+        gap: 5px !important;
+        display: flex !important;
+        align-items: center !important;
+        line-height: 0 !important;
+    }
+
+    .btn-pesan img {
+        width: 15px !important;
+        height: auto !important;
+        display: block;
+    }
+
+    .btn-wa {
+        padding: 10px 16px !important;
+    }
+
+    .btn-wa img {
+        width: 75px !important;
+    }
+
+    // Footer
+    .footer {
+        background: #111111;
+        color: #fff;
+        padding: 30px 20px !important;
+    }
+
+    .footer-container {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+
+    .footer-logo img {
+        height: 64.88px !important;
+        width: auto !important;
+        margin-bottom: 15px !important;
+    }
+
+    .footer-text {
+        font-size: 16px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .footer-text .brand {
+        color: #ff6600 !important;
+    }
+
+    .footer-text .developer {
+        font-weight: 600 !important;
+    }
+
+    .footer-social {
+        display: flex !important;
+        gap: 18px !important;
+    }
+
+    .footer-icon {
+        width: 28px !important;
+        height: 28px !important;
+    }
+}
+
+.hero-title {
+    font-size: 130px;
+    margin-bottom: clamp(20px, 5vw, 70px);
+}
+
+.hero-title .highlight {
+    color: #f97316;
+    font-weight: bold;
+}
+
+.hero-section {
+    padding-bottom: 100px;
+}
+
+.hero-content {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: clamp(16px, 4vw, 30px);
+}
+
+.hero-card {
+    background: #febe33;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.hero-card .card-title {
+    font-size: 36px;
+    letter-spacing: -3px;
+    margin-bottom: 36px;
+    line-height: 110%;
+}
+
+.order-button {
+    background-color: white;
+    border-radius: 20px;
+    gap: 30px;
+    height: 84px;
+}
+
+.order-button > a {
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.whatsapp-btn {
+    background-color: #25d366;
+    border-radius: 20px;
+    height: 84px;
+}
+
+.banner-img {
+    border-radius: 20px;
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    aspect-ratio: 750 / 444;
+    object-fit: cover;
+}
+
+.hero-banner {
+    gap: clamp(16px, 4vw, 30px);
+}
+
+// MENU SECTION
+
+.menu-section {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.description-menu {
+    font-size: 64px;
+    letter-spacing: -3%;
+    line-height: 110%;
+    margin-bottom: 30px;
+}
+
+.btn-menu {
+    padding: 28px 40px;
+}
+
+.btn-medal {
+    height: 99px;
+    width: 99px;
+    background: #f06100;
+}
+
+// TENTANG SECTION
+.about-section {
+    padding: 0 clamp(20px, 8vw, 80px) clamp(40px, 8vw, 100px);
+}
+
+.img-tentang {
+    height: 700px;
+    width: 800px;
+}
+
+.icon-tentang {
+    padding-right: 60px;
+    padding-left: 40px;
+    width: 200px;
+}
+
+.description-about {
+    font-size: 36px;
+    letter-spacing: -3%;
+    line-height: 120%;
+    padding: 50px 60px 100px 40px;
+}
+
+.btn-rounded {
+    border-radius: 50px;
+}
+
+.card-actions {
+    gap: 20px;
+    width: 400px;
+}
+
+// OUTLET SECTION
+.outlet-section {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+#warung .heading-outlet {
+    margin-bottom: 72px;
+}
+
+#warung .btn-outlet {
+    margin-bottom: 50px;
+}
+
+.outlet-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 100%;
+    background: linear-gradient(
+        to left,
+        rgba(254, 190, 51, 1) 0%,
+        rgba(254, 190, 51, 0.95) 30%,
+        rgba(254, 190, 51, 0.8) 50%,
+        rgba(254, 190, 51, 0) 100%
+    );
+    pointer-events: none;
+    z-index: 5;
+}
+
+.heading-outlet {
+    font-size: 44px;
+}
+
+.btn-outlet {
+    position: relative;
+    z-index: 10;
+}
+
+.outlet-card {
+    border-radius: 20px;
+    padding: 25px;
+    background-color: white;
+    width: 450px;
+    flex: 0 0 auto;
+    gap: 30px;
+    height: 438px;
+    transition: box-shadow 0.3s ease;
+}
+
+.outlet-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.img-outlet {
+    border-radius: 20px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.btn-lokasi {
+    background-color: #ff6600;
+    color: white;
+    border-radius: 16.85px;
+    padding: 13.48px 28.08px;
+    font-size: 0.9rem;
+    border: none;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+}
+
+/* HOVER CARD */
+.outlet-card:hover .btn-lokasi {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.outlet-carousel {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.outlet-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.outlet-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.outlet-card:hover {
+    transform: rotate(-2deg) scale(1.03);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.outlet-card:active {
+    transform: rotate(0deg) scale(0.98);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+// Promo
+.section-promo {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.heading-60px {
+    font-size: 60px !important;
+    line-height: 1.1;
+    letter-spacing: 0;
+}
+
+.highlight {
+    color: #ffc107;
+    font-weight: 600;
+}
+
+.whatsapp-btn-1 {
+    background-color: #25d366;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1ebe5d;
+    color: white;
+}
+
+.fs-36px {
+    font-size: 30px !important;
+}
+
+.line {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+// Video
+.section-video {
+    padding-bottom: 50px;
+}
+
+.icon-pause {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+// Gallery
+.section-gallery {
+    padding-bottom: 100px;
+}
+
+.gallery-gap-2 {
+    gap: 40px !important;
+}
+
+// Review
+.review-section {
+    background-color: #fff;
+    color: #000;
+    padding-top: 50px;
+}
+
+.review-title {
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+.review-content {
+    font-size: 56px;
+    font-weight: 500;
+    margin-bottom: 36px;
+}
+
+.review-avatar {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.review-name {
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 16px;
+}
+
+.nav-arrow {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 2px;
+}
+
+.arrow-left {
+    border-color: #111;
+    opacity: 40%;
+}
+
+.arrow-right {
+    border-color: #f06100;
+}
+
+.line-2 {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+// Banner
+.banner-wrapper {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.banner-img-1 {
+    width: 100%;
+    display: block;
+}
+
+.button-overlay {
+    position: absolute;
+    bottom: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 26px;
+}
+
+.btn-pesan {
+    padding: 10px 5px 10px 20px;
+    background: white;
+    border: 2px solid #000;
+    border-radius: 12px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    white-space: nowrap;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-pesan img {
+    width: 55px;
+}
+
+.btn-wa {
+    padding: 19px 34px 19px 54px;
+    background: #25d366;
+    border-radius: 12px;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-wa img {
+    width: 195px;
+}
+
+// Footer
+.footer {
+    background: #111111;
+    color: #fff;
+    padding: 50px 100px 50px 0;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    height: 64.88px;
+    width: auto;
+}
+
+.footer-text {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    flex: 1;
+}
+
+.footer-text .brand {
+    color: #ff6600;
+}
+
+.footer-text .developer {
+    font-weight: 600;
+}
+
+.footer-social {
+    display: flex;
+    gap: 18px;
+}
+
+.footer-icon {
+    width: 28px;
+    height: 28px;
+}
