@@ -32,7 +32,7 @@
             </div>
 
             <div class="d-none d-lg-block">
-                <a href="#" class="btn btn-dark px-4 py-3" style="border-radius: 12px">PESAN SEKARANG</a>
+                <a href="https://s.id/baksosolokidulpasar?fbclid=PAQ0xDSwMIGpBleHRuA2FlbQIxMQABp60jBYeMT1NwoWDbNzFqzTUyiwxGsRBPS4qhIEX59pLWGHbPJCVDnlGraDXE_aem_fOkNWDI0Y5Z9SbHRVyJLlw" target="_blank" class="btn btn-dark px-4 py-3" style="border-radius: 12px">PESAN SEKARANG</a>
             </div>
         </div>
     </nav>
@@ -64,10 +64,10 @@
         <a href="#" class="icon-btn">
             <img src="{{ asset('img/icons/Facebook.png') }}" alt="Facebook" class="footer-icon">
         </a>
-        <a href="https://www.instagram.com/baksosolo_kidulpasar?igsh=bGM3aW9hdTBwbDR6" class="icon-btn">
+        <a href="https://www.instagram.com/baksosolo_kidulpasar?igsh=bGM3aW9hdTBwbDR6" target="_blank" class="icon-btn">
             <img src="{{ asset('img/icons/instagram.png') }}" alt="Instagram" class="footer-icon">
         </a>
-        <a href="https://api.whatsapp.com/send?phone=6281292272007&text=Halo%20&fbclid=PAQ0xDSwMIGetleHRuA2FlbQIxMAABpwezqZtq8ATdyHUK_ZZB74BbS878wzZCu31DsxP3XM-nyU6ofVvn-yT-PbTP_aem_2nep4Yn3tlFMm1Iyp3OK5Q" class="icon-btn">
+        <a href="https://api.whatsapp.com/send?phone=6281292272007&text=Halo%20&fbclid=PAQ0xDSwMIGetleHRuA2FlbQIxMAABpwezqZtq8ATdyHUK_ZZB74BbS878wzZCu31DsxP3XM-nyU6ofVvn-yT-PbTP_aem_2nep4Yn3tlFMm1Iyp3OK5Q" target="_blank" class="icon-btn">
             <img src="{{ asset('img/icons/WhatsApp-ixon.png') }}" alt="WhatsApp" class="footer-icon">
         </a>
         </div>

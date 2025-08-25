@@ -1021,115 +1021,106 @@ body {
 
 // OUTLET SECTION
 .outlet-section {
-    padding-top: 150px;
-    padding-bottom: 100px;
-    position: relative;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  position: relative;
 }
 
 #warung .heading-outlet {
-    margin-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 #warung .btn-outlet {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .outlet-section::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 150px;
-    height: 100%;
-    background: linear-gradient(
-        to left,
-        rgba(254, 190, 51, 1) 0%,
-        rgba(254, 190, 51, 0.95) 30%,
-        rgba(254, 190, 51, 0.8) 50%,
-        rgba(254, 190, 51, 0) 100%
-    );
-    pointer-events: none;
-    z-index: 5;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 100%;
+  background: linear-gradient(
+    to left,
+    rgba(254, 190, 51, 1) 0%,
+    rgba(254, 190, 51, 0.95) 30%,
+    rgba(254, 190, 51, 0.8) 50%,
+    rgba(254, 190, 51, 0) 100%
+  );
+  pointer-events: none;
+  z-index: 5;
 }
 
 .heading-outlet {
-    font-size: 44px;
+  font-size: 44px;
 }
 
 .btn-outlet {
-    position: relative;
-    z-index: 10;
+  position: relative;
+  z-index: 10;
 }
 
 .outlet-card {
-    border-radius: 20px;
-    padding: 25px;
-    background-color: white;
-    width: 450px;
-    flex: 0 0 auto;
-    gap: 30px;
-    height: 438px;
-    transition: box-shadow 0.3s ease;
+  background: #fff;
+  border-radius: 20px;
+  padding: 25px;
+  width: 450px;
+  flex: 0 0 auto;
+  gap: 30px;
+  height: 438px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .outlet-card:hover {
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transform: rotate(-2deg) scale(1.03);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.outlet-card:active {
+  transform: rotate(0deg) scale(0.98);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
 }
 
 .img-outlet {
-    border-radius: 20px;
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
+  border-radius: 20px;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
 }
 
 .btn-lokasi {
-    background-color: #ff6600;
-    color: white;
-    border-radius: 16.85px;
-    padding: 13.48px 28.08px;
-    font-size: 0.9rem;
-    border: none;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(20px);
-    transition: all 0.3s ease;
+  background-color: #ff6600;
+  color: white;
+  border-radius: 16.85px;
+  padding: 13.48px 28.08px;
+  font-size: 0.9rem;
+  border: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
 }
 
 /* HOVER CARD */
 .outlet-card:hover .btn-lokasi {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
 
 .outlet-carousel {
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .outlet-carousel::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
-.outlet-card {
-    background: #fff;
-    border-radius: 20px;
-    padding: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
 
-.outlet-card:hover {
-    transform: rotate(-2deg) scale(1.03);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-}
-
-.outlet-card:active {
-    transform: rotate(0deg) scale(0.98);
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-}
 
 // Promo
 .section-promo {

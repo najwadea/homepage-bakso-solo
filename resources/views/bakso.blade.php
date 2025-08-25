@@ -27,13 +27,13 @@
             <!-- Order Button -->
             <button
               class="d-flex order-button btn btn-outline-dark justify-content-center align-items-center py-3">
-              <a href="https://s.id/baksosolokidulpasar?fbclid=PAQ0xDSwMIGpBleHRuA2FlbQIxMQABp60jBYeMT1NwoWDbNzFqzTUyiwxGsRBPS4qhIEX59pLWGHbPJCVDnlGraDXE_aem_fOkNWDI0Y5Z9SbHRVyJLlw" class="text-uppercase fw-bold text-black">
+              <a href="https://s.id/baksosolokidulpasar?fbclid=PAQ0xDSwMIGpBleHRuA2FlbQIxMQABp60jBYeMT1NwoWDbNzFqzTUyiwxGsRBPS4qhIEX59pLWGHbPJCVDnlGraDXE_aem_fOkNWDI0Y5Z9SbHRVyJLlw" target="_blank" class="text-uppercase fw-bold text-black">
                 Pesan Sekarang
               </a>
               <img src="{{ asset('img/icons/isolation_mode.png') }}" alt="Icon" class="img-fluid icon-order">
             </button>
             <!-- WhatsApp Button -->
-            <a href="https://api.whatsapp.com/send?phone=6281292272007&text=Halo%20&fbclid=PAQ0xDSwMIGetleHRuA2FlbQIxMAABpwezqZtq8ATdyHUK_ZZB74BbS878wzZCu31DsxP3XM-nyU6ofVvn-yT-PbTP_aem_2nep4Yn3tlFMm1Iyp3OK5Q"
+            <a href="https://api.whatsapp.com/send?phone=6281292272007&text=Halo%20&fbclid=PAQ0xDSwMIGetleHRuA2FlbQIxMAABpwezqZtq8ATdyHUK_ZZB74BbS878wzZCu31DsxP3XM-nyU6ofVvn-yT-PbTP_aem_2nep4Yn3tlFMm1Iyp3OK5Q" target="_blank"
               class="btn btn-outline-dark whatsapp-btn d-flex justify-content-center align-items-center py-3">
               <img src="{{ asset('img/icons/whatsapp.png') }}" alt="">
             </a>
@@ -318,7 +318,7 @@
           <p class="fw-semibold fs-36px mb-4">
             Informasi lengkap &<br> pemesanan, silahkan hubungi <br> kami 👇
           </p>
-          <a href="https://api.whatsapp.com/send?phone=6281292272007&text=Halo%20&fbclid=PAQ0xDSwMIGetleHRuA2FlbQIxMAABpwezqZtq8ATdyHUK_ZZB74BbS878wzZCu31DsxP3XM-nyU6ofVvn-yT-PbTP_aem_2nep4Yn3tlFMm1Iyp3OK5Q"
+          <a href="https://api.whatsapp.com/send?phone=6281292272007&text=Halo%20&fbclid=PAQ0xDSwMIGetleHRuA2FlbQIxMAABpwezqZtq8ATdyHUK_ZZB74BbS878wzZCu31DsxP3XM-nyU6ofVvn-yT-PbTP_aem_2nep4Yn3tlFMm1Iyp3OK5Q" target="_blank"
             class="whatsapp-btn-1 d-flex justify-content-center align-items-center text-white text-decoration-none w-100 py-3"
             style="background-color: #25D366;"
             target="_blank">
@@ -384,14 +384,14 @@
 
   <!-- Start Gallery Foto -->
   <div class="custom-container section-gallery">
-    <div class="row g-4">
+    <div class="row g-5">
       <div class="col-md-6 d-flex flex-column gallery-gap-2">
-        <img src="{{ asset('img/card-1.jpg') }}" class="w-100 gallery-img" alt="Foto 1" style="object-fit: cover; height: 363px; border-radius: 20px;">
-        <img src="{{ asset('img/card-2.jpg') }}" class="w-100 gallery-img" alt="Foto 2" style="object-fit: cover; height: 620px; border-radius: 20px;">
+        <img src="{{ asset('img/card-1.jpg') }}" class="gallery-img" alt="Foto 1" style="object-fit: cover; width:615px; height: 363px; border-radius: 20px;">
+        <img src="{{ asset('img/card-2.jpg') }}" class="gallery-img" alt="Foto 2" style="object-fit: cover; width:615px; height: 620px; border-radius: 20px;">
       </div>
       <div class="col-md-6 d-flex flex-column gallery-gap-2">
-        <img src="{{ asset('img/card-3.jpg') }}" class="w-100 gallery-img" alt="Foto 3" style="object-fit: cover; height: 620px; border-radius: 20px;">
-        <img src="{{ asset('img/card-4.jpg') }}" class="w-100 gallery-img" alt="Foto 4" style="object-fit: cover; height: 363px; border-radius: 20px; margin-bottom:70px;">
+        <img src="{{ asset('img/card-3.jpg') }}" class="gallery-img" alt="Foto 3" style="object-fit: cover; width:615px; height: 620px; border-radius: 20px;">
+        <img src="{{ asset('img/card-4.jpg') }}" class="gallery-img" alt="Foto 4" style="object-fit: cover; width:615px; height: 363px; border-radius: 20px; margin-bottom:70px;">
       </div>
     </div>
   </div>
@@ -471,13 +471,13 @@
     <!-- Tombol Overlay -->
     <div class="button-overlay btn-container">
       <!-- Tombol Pesan Sekarang -->
-      <a href="https://s.id/baksosolokidulpasar?fbclid=PAQ0xDSwMIGpBleHRuA2FlbQIxMQABp60jBYeMT1NwoWDbNzFqzTUyiwxGsRBPS4qhIEX59pLWGHbPJCVDnlGraDXE_aem_fOkNWDI0Y5Z9SbHRVyJLlw" class="btn-pesan">
+      <a href="https://s.id/baksosolokidulpasar?fbclid=PAQ0xDSwMIGpBleHRuA2FlbQIxMQABp60jBYeMT1NwoWDbNzFqzTUyiwxGsRBPS4qhIEX59pLWGHbPJCVDnlGraDXE_aem_fOkNWDI0Y5Z9SbHRVyJLlw" target="_blank" class="btn-pesan">
         PESAN SEKARANG
         <img src="{{ asset('img/icons/isolation_mode.png') }}" alt="Food">
       </a>
 
       <!-- Tombol WhatsApp -->
-      <a href="https://api.whatsapp.com/send?phone=6281292272007&text=Halo%20&fbclid=PAQ0xDSwMIGetleHRuA2FlbQIxMAABpwezqZtq8ATdyHUK_ZZB74BbS878wzZCu31DsxP3XM-nyU6ofVvn-yT-PbTP_aem_2nep4Yn3tlFMm1Iyp3OK5Q" class="btn-wa custom-btn">
+      <a href="https://api.whatsapp.com/send?phone=6281292272007&text=Halo%20&fbclid=PAQ0xDSwMIGetleHRuA2FlbQIxMAABpwezqZtq8ATdyHUK_ZZB74BbS878wzZCu31DsxP3XM-nyU6ofVvn-yT-PbTP_aem_2nep4Yn3tlFMm1Iyp3OK5Q" target="_blank" class="btn-wa custom-btn">
         <img src="{{ asset('img/icons/whatsapp.png') }}" alt="WhatsApp">
       </a>
     </div>
