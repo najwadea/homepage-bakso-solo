@@ -384,14 +384,14 @@
 
   <!-- Start Gallery Foto -->
   <div class="custom-container section-gallery">
-    <div class="row g-5">
+    <div class="row g-4">
       <div class="col-md-6 d-flex flex-column gallery-gap-2">
-        <img src="{{ asset('img/card-1.jpg') }}" class="gallery-img" alt="Foto 1" style="object-fit: cover; width:615px; height: 363px; border-radius: 20px;">
-        <img src="{{ asset('img/card-2.jpg') }}" class="gallery-img" alt="Foto 2" style="object-fit: cover; width:615px; height: 620px; border-radius: 20px;">
+        <img src="{{ asset('img/card-1.jpg') }}" class="gallery-img" alt="Foto 1" style="object-fit: cover; height: 363px; border-radius: 20px;">
+        <img src="{{ asset('img/card-2.jpg') }}" class="gallery-img" alt="Foto 2" style="object-fit: cover; height: 620px; border-radius: 20px;">
       </div>
       <div class="col-md-6 d-flex flex-column gallery-gap-2">
-        <img src="{{ asset('img/card-3.jpg') }}" class="gallery-img" alt="Foto 3" style="object-fit: cover; width:615px; height: 620px; border-radius: 20px;">
-        <img src="{{ asset('img/card-4.jpg') }}" class="gallery-img" alt="Foto 4" style="object-fit: cover; width:615px; height: 363px; border-radius: 20px; margin-bottom:70px;">
+        <img src="{{ asset('img/card-3.jpg') }}" class="gallery-img" alt="Foto 3" style="object-fit: cover; height: 620px; border-radius: 20px;">
+        <img src="{{ asset('img/card-4.jpg') }}" class="gallery-img" alt="Foto 4" style="object-fit: cover; height: 363px; border-radius: 20px; margin-bottom:70px;">
       </div>
     </div>
   </div>
@@ -504,4 +504,3 @@
 
 
 @endsection
-

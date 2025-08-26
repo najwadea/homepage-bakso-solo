@@ -990,6 +990,9 @@ body {
 // TENTANG SECTION
 .about-section {
     padding: 0 clamp(20px, 8vw, 80px) clamp(40px, 8vw, 100px);
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .img-tentang {
@@ -1113,6 +1116,7 @@ body {
 
 .outlet-carousel {
   overflow-x: hidden;
+  // overflow-x: visible;
   scroll-behavior: smooth;
 }
 
